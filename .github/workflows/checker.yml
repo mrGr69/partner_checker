@@ -1,0 +1,40 @@
+name: Check Site Changes
+
+on:
+  schedule:
+    - cron: '0 9 * * *' # 9:00 UTC
+  workflow_dispatch:
+
+jobs:
+  run-checker:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run Python script
+        id: run_script
+        env:
+          BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
+          CHAT_ID: ${{ secrets.CHAT_ID }}
+        run: python check_site.py
+
+      # ----- ВАЖНОЕ ИЗМЕНЕНИЕ ТУТ -----
+      - name: Commit and push changes (if any)
+        run: |
+          git config --global user.name 'GitHub Actions Bot'
+          git config --global user.email 'actions@github.com'
+          git add last_data.json  # <--- МЕНЯЕМ ИМЯ ФАЙЛА
+          
+          # Коммитим, только если есть реальные изменения
+          git diff --quiet --cached || git commit -m "Update site data"
+          git push
