@@ -104,22 +104,22 @@ def main():
         print("Changes DETECTED! Building notification.")
         
         message_parts = [
-            "🔔 **Обновление на сайте Минобороны!**\n"
+            "🔔 **Оновлення на сайті partner!**\n"
         ]
 
         if added_items:
-            message_parts.append("✅ **Добавлено:**")
+            message_parts.append("✅ **Додано:**")
             for item in added_items:
                 message_parts.append(f"• {format_item(item)}")
             message_parts.append("\n") # Пустая строка для разделения
 
         if removed_items:
-            message_parts.append("❌ **Удалено:**")
+            message_parts.append("❌ **Видалено:**")
             for item in removed_items:
                 message_parts.append(f"• {format_item(item)}")
             message_parts.append("\n")
 
-        message_parts.append(f"[Перейти на страницу]({PAGE_URL})")
+        message_parts.append(f"[Перейти на на основну сторінку]({PAGE_URL})")
         
         final_message = "\n".join(message_parts)
 
