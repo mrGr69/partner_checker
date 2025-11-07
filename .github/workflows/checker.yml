@@ -26,7 +26,7 @@ jobs:
         id: run_script
         env:
           BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
-          CHAT_ID: ${{ secrets.CHAT_ID }}
+          CHAT_IDS_STRING: ${{ secrets.CHAT_IDS }}
         run: python check_site.py
 
       # ----- ВАЖНОЕ ИЗМЕНЕНИЕ ТУТ -----
