@@ -1,8 +1,12 @@
 {
   "https://partner.mod.gov.ua/useful-info/material-support-specs": [
     {
-      "text": "Костюм спеціальний літній тест тест тест (Тип Б)” ТО А01XJ.33387-ХХХ:2024",
+      "text": "Костюм спеціальний літній (Тип Б)” ТО А01XJ.33387-ХХХ:2024",
       "url": "https://contacts-mo.s3.eu-central-1.amazonaws.com/2024/11/13/10abedbbd.pdf"
+    },
+    {
+      "text": "Тканини бавовняні та змішані ТС А01XJ.29979-539:2025 (02)",
+      "url": "https://contacts-mo.s3.eu-central-1.amazonaws.com/2025/6/17/af9bf9b80.pdf"
     },
     {
       "text": "Тканини бавовняні та змішані ТС A01XJ.29979-539:2024 (01)",
@@ -2219,10 +2223,6 @@
   ],
   "https://partner.mod.gov.ua/useful-info/legal-acts": [
     {
-      "text": "тест",
-      "url": "https://contacts-mo.s3.eu-central-1.amazonaws.com/2025/11/20/dee9138aa.pdf"
-    },
-    {
       "text": "Алгоритм перевірки та затвердження контрольного зразка",
       "url": "https://contacts-mo.s3.eu-central-1.amazonaws.com/2025/11/20/dee9138aa.pdf"
     },
@@ -2257,13 +2257,13 @@
     {
       "text": "Інструкція про організацію речового забезпечення військовослужбовців Збройних Сил України в мирний час та особливий період",
       "url": "https://contacts-mo.s3.eu-central-1.amazonaws.com/2024/11/19/baba90d1f.pdf"
+    },
+    {
+      "text": "Норми забезпечення речовим майном військовослужбовців Збройних Сил України та Державної спеціальної служби транспорту в мирний час та особливий період",
+      "url": "https://contacts-mo.s3.eu-central-1.amazonaws.com/2024/11/19/fef8c7921.pdf"
     }
   ],
   "https://partner.mod.gov.ua/announcements": [
-    {
-      "text": "some text for test",
-      "url": "https://partner.mod.gov.ua/announcements/test"
-    },
     {
       "text": "Оголошення щодо організації військових (дослідних) випробувань предмета речового майна рукавички для десантування",
       "url": "https://partner.mod.gov.ua/announcements/79"
@@ -2307,6 +2307,10 @@
     {
       "text": "Оголошення щодо організації військових (дослідних) випробувань намету каркасного (модульного спеціального уніфікованого)",
       "url": "https://partner.mod.gov.ua/announcements/69"
+    },
+    {
+      "text": "Оголошення щодо надання зразків-еталонів предметів речового забезпечення –  Кашкет польовий (кепі бойове) (тип 1) та  Кашкет польовий (кепі бойове) (тип 2)",
+      "url": "https://partner.mod.gov.ua/announcements/68"
     }
   ]
 }
