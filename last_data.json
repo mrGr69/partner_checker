@@ -1273,6 +1273,10 @@
       "url": "https://mod.gov.ua/diyalnist/normativno-pravova-baza/obsiag-perevirki-odiagu-dlia-medichnogo-personalu"
     },
     {
+      "text": "Костюм спеціальний літній (Тип Б2) ТС А01XJ.33387-672:2026 (01)",
+      "url": "https://contacts-mo.s3.eu-central-1.amazonaws.com/2026/5/19/b77a0f403.pdf"
+    },
+    {
       "text": "Індивідуальний маскувальний комплект (ПОНЧО) TC A01XJ.68577-650:2026 (02)",
       "url": "https://contacts-mo.s3.eu-central-1.amazonaws.com/2026/2/19/4f98ab6ca.pdf"
     },
@@ -2237,6 +2241,10 @@
   ],
   "https://partner.mod.gov.ua/announcements": [
     {
+      "text": "Оголошення щодо надання зразків-еталонів предмету речового майна “Костюм спеціальний літній (Тип Б2)”",
+      "url": "https://partner.mod.gov.ua/announcements/95"
+    },
+    {
       "text": "Щодо залучення національних виробників до постачання Збройним Силам України горизонтальних резервуарів для зберігання пального згідно з ДСТУ EN 12285-1:2022.",
       "url": "https://partner.mod.gov.ua/announcements/94"
     },
@@ -2327,10 +2335,6 @@
     {
       "text": "Оголошення щодо надання зразків-еталонів предметів речового забезпечення – “сорочка-поло” та “фуфайка з короткими рукавами”",
       "url": "https://partner.mod.gov.ua/announcements/72"
-    },
-    {
-      "text": "Оголошення щодо організації проведення військових (дослідних) випробувань чобіт гумових",
-      "url": "https://partner.mod.gov.ua/announcements/71"
     }
   ]
 }
